@@ -1,0 +1,17 @@
+h1 {
+    border: 5px dotted green;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+h2 {
+    border: 5px double blanchedalmond;
+    margin: 50px 50px 50px 50p;
+}
+
+h3 {
+    border: 5px solid blue;
+    margin: 50px 50px;
+}
