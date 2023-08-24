@@ -1,0 +1,115 @@
+Colors : 
+-----
+        There are standard 140 colors.
+
+RGB:
+---
+    RGB stands for Red, Green , Blue colors.
+
+    rgb(red, green, blue)
+
+    each parameter can hold colors from 0 to 255
+
+    This means that there are 256 x 256 x 256 = 16777216 possible colors.
+
+    For example, rgb(255, 0, 0) is displayed as red,
+                 rgb(0, 255, 0) is displayed as green,
+                 rgb(0, 0, 255) is displayed as blue
+                 rgb(0, 0, 0) is displayed as black
+                 rgb(255, 255, 255) is displayed as white
+
+
+HEX:
+---
+    A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue).
+
+    each color can hold colors from 00 to FF , red hold 0 to 255 colors
+
+    This means that there are 256 x 256 x 256 = 16777216 possible colors.
+
+    #ff0000 is displayed as red, because red is set to its highest value (ff), and the other two (green and blue) are set to 00.
+
+    #00ff00 is displayed as green, because green is set to its highest value (ff), and the other two (red and blue) are set to 00.
+
+    #0000ff is displayed as blue, because blue is set to its highest value (ff), and the other two (red and green) are set to 00.
+
+    #000000 is displayed as black.
+
+    #ffffff is displayed as white.
+
+
+HSL:
+---
+    HSL stands for hue, saturation, and lightness.
+
+    It can be defined as hsl(hue, saturation, lightness).
+
+    hue :  degree on the color wheel from 0 to 360.
+
+    Saturation: percentage value. 0% means a shade of gray, and 100% is the full color.
+
+    Lightness: percentage value. 0% is black, and 100% is white.
+
+HSLA:
+----
+    HSLA stands for hue, saturation, lightness, alpha
+
+    alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all).
+
+    hsla(hue, saturation, lightness, alpha)
+
+Styling:
+-------
+
+Three types of styling: 1. Inline styling
+                        2. Internal styling
+                        3. External styling
+
+Inline styling:
+--------------
+                The styles specified within the tag is called inline styling.
+                The problem with inline styling is if there are huge tags to apply styles then it will be time taken.
+                To specify styles to only small quantity of tags we can go for inline styling.
+
+Internal styling:
+----------------
+                The styles specified in head section by using style tag is called internal styling.
+                If there are not more than one page of styles, we can choose internal styling.
+
+External styling:
+----------------
+                The styles specified in the seperate css file, and linked that file in the head section of the html file called External styling.
+
+Borders:
+-------
+        To specify the borders for the content we can apply borders.
+
+        borders : radius style color
+
+        We can also specify border in seperate lines as:
+
+        border-radius : radius;
+        border-style : style
+        border-color : color
+
+Padding:
+-------
+        Padding is the space between the content inside the border and border.
+
+        padding : top right bottom left (four values)
+
+        padding : top&bottom right&left (two values)
+
+        padding : top&right&bottom&left (single value)
+
+Margin:
+------
+     Margin is the space between two elements and outside the border
+
+    Margin : top right bottom left (four values)
+
+    Margin : top&bottom right&left (two values)
+
+    Margin : top&right&bottom&left (single value)
+
+ 
