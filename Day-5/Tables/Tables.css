@@ -1,0 +1,19 @@
+/*
+table,td,th {
+    border: 2px solid red;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+*/
+table, th, td {
+    border: 5px solid white;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+th, td {
+    background-color: antiquewhite;
+}
+h1 {
+    border: 5px solid yellowgreen;
+    border-radius: 5px;
+}
