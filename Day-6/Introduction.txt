@@ -1,0 +1,100 @@
+Block-level Elements:
+--------------------
+
+A block-level element always starts on a new line.
+
+Examples for Block level elements:
+---------------------------------
+
+<address>                       <hr>
+<article>                       <li>
+<aside>                         <main>
+<blockquote>                    <nav>
+<canvas>                        <noscript>
+<dd>                            <ol>
+<div>                           <p>
+<dl>                            <pre>
+<dt>                            <section>
+<fieldset>                      <table>                 
+<figcaption>                    <tfoot>
+<figure>                        <ul>
+<footer>                        <video>
+<form>                          <header>
+<h1>-<h6>
+
+Inline Elements :
+---------------
+
+An inline element does not start on a new line.
+
+An inline element only takes up as much width as necessary.
+
+Examples for inline elements:
+----------------------------
+
+<a>             <abbr>              <acronym>           <b>                     <bdo>
+<big>           <br>                <button>            <cite>                  <code>  
+<dfn>           <em>                <i>                 <img>                   <input>
+<kbd>           <label>             <map>               <object>                <output>
+<q>             <samp>              <script>            <select>                <small>
+<span>          <strong>            <sub>               <sup>                   <textarea>
+<time>          <tt>                <var>  
+
+
+The <div> Element:
+-----------------
+
+The <div> element is often used as a container for other HTML elements.
+
+The <span> Element:
+-------------------
+The <span> element is an inline container used to mark up a part of a text, or a part of a document.
+
+HTML class Attribute:
+--------------------
+The HTML class attribute is used to specify a class for an HTML element.
+
+The Syntax For Class:
+--------------------
+
+To create a class; write a period (.) character, followed by a class name. Then, define the CSS properties within curly braces {}:
+
+Multiple Classes:
+----------------
+
+HTML elements can belong to more than one class.
+
+To define multiple classes, separate the class names with a space, e.g. <div class="city main">. The element will be styled according to all the classes specified.
+
+The class name is case sensitive.
+
+HTML id Attribute:
+-----------------
+
+The HTML id attribute is used to specify a unique id for an HTML element.
+
+You cannot have more than one element with the same id in an HTML document.
+
+Difference Between Class and ID:
+-------------------------------
+
+A class name can be used by multiple HTML elements, 
+while an id name must only be used by one HTML element within the page:
+
+
+HTML Iframes
+-----------
+
+An HTML iframe is used to display a web page within a web page.
+
+HTML Iframe Syntax:
+------------------
+
+<iframe src="url" title="description"></iframe>
+
+Iframe - Target for a Link:
+--------------------------
+
+An iframe can be used as the target frame for a link.
+
+The target attribute of the link must refer to the name attribute of the iframe:
