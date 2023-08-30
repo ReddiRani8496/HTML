@@ -1,0 +1,17 @@
+/* p {
+    margin: 25px 50px 75px;  here first value specifies top, then right and left, finally bottom*/
+
+/* div {
+    width: 300px;
+    margin: auto;  set the content to center
+    border: 1px solid red;
+} */
+
+div {
+    border: 1px solid red;
+    margin-left: 100px;
+}
+  
+  p.main {
+    margin-left: inherit;
+  }

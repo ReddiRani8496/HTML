@@ -1,0 +1,14 @@
+/* body {
+    background-image: url('https://imgs.search.brave.com/J6V-i5KnfIn8RPaOab56KmWXiClQexiMZzd-61LNDXw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2EzLzU5/LzU4L2EzNTk1ODlj/NmUxMzY0ZWEzNDI1/MjYwZmE3Y2UyMzFi/LS1wYXBpbGxvbi1w/dXBwaWVzLWRvZy13/YWxscGFwZXIuanBn');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+} */
+
+/* p {
+    background-image: url('paper.webp');
+} */
+
+body {
+    background: #ffffff url("https://imgs.search.brave.com/J6V-i5KnfIn8RPaOab56KmWXiClQexiMZzd-61LNDXw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2EzLzU5/LzU4L2EzNTk1ODlj/NmUxMzY0ZWEzNDI1/MjYwZmE3Y2UyMzFi/LS1wYXBpbGxvbi1w/dXBwaWVzLWRvZy13/YWxscGFwZXIuanBn") no-repeat right top;
+  }
