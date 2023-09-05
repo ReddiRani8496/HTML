@@ -1,0 +1,52 @@
+Java script is used to make page responsive.
+
+JavaScript code is inserted between <script> and </script> tags.
+
+Data types:
+---------
+let, var, const.
+
+Comments:
+--------
+Single line comments: //
+Multi line comments: /* */
+
+JavaScript Identifiers / Names
+------------------------------
+
+Identifiers are JavaScript names.
+
+Identifiers are used to name variables and keywords, and functions.
+
+The rules for legal names are the same in most programming languages.
+
+A JavaScript name must begin with:
+
+A letter (A-Z or a-z)
+A dollar sign ($)
+Or an underscore (_)
+
+JavaScript is Case Sensitive
+----------------------------
+All JavaScript identifiers are case sensitive. 
+
+The variables lastName and lastname, are two different variables
+
+Let keyword:
+-----------
+
+Variables defined with let cannot be Redeclared
+
+Variables defined with let must be Declared before use
+
+Variables defined with let have Block Scope.
+
+const keyword:
+-------------
+
+Variables defined with const cannot be Redeclared
+
+Variables defined with const cannot be Reassigned
+
+Variables defined with const have Block Scope
+
