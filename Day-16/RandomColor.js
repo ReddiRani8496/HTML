@@ -8,5 +8,5 @@ function changeBg() {
     }
     body.style.backgroundColor=color;
     console.log(color);
-
 }
+

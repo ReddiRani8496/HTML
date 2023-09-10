@@ -1,9 +1,10 @@
-let color = document.getElementsByTagName('img');
-let i = 1;
+let image = document.getElementsByTagName('img')[0];
+let i = 0;
 function change() {
-    if(i%2!=0)
-        color[0].style.backgroundColor= 'red';
+    if(i%2==0)
+        image.src = "./like.png";
     else
-        color[0].style.backgroundColor='white';
+        image.src = "./thumbs-up.png";
     i++;
 }
+
