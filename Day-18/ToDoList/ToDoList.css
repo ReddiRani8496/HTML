@@ -1,0 +1,35 @@
+input {
+    width : 500px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: larger;
+}
+button {
+    width: 100px;
+    height: 40px;
+    margin : 10px 0 0 50px;
+    background-color:wheat;
+    color:purple;
+    font-size: 20px;
+    font-weight: bold;
+}
+ol {
+    margin-left: 15px;
+}
+ol li {
+    font-size: 25px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    background-color:rgb(205, 146, 240,0.6);
+    padding-left: 8px;
+    width: 500px;
+}
+ol li:hover {
+    background-color: gray;
+}
+
+h1{
+    margin-left:180px;
+    color: rgb(224, 63, 45);
+}
