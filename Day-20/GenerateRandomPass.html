@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="Password">Password: </h1>
+    <input type="number" placeholder="Length" min="8" max="32" id="length"><br><br>
+    <label for="uppercase">Upper Case</label>
+    <input type="checkbox" name="uppercase" id="uppercase"><br>
+    <label for="lowercase">Lower Case</label>
+    <input type="checkbox" name="lowercase" id="lowercase"><br>
+    <label for="number">Numbers&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="checkbox" name="number" id="number"><br>
+    <label for="specialCharacters">Symbols &nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="checkbox" name="specialCharacters" id="specialCharacters"><br><br>
+    <button id="generate" onclick="generatePassword()">Generate</button>
+    <script src="GenerateRandomPass.js"></script>
+</body>
+</html>
