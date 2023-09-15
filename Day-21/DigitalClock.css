@@ -1,0 +1,19 @@
+h1{
+    border: 3px solid tomato;
+    text-align: center;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    
+}
+div {
+    
+    height: 100vh;
+    width: fit-content;
+    padding: 20px;
+    margin-top: 25%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
