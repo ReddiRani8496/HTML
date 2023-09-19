@@ -1,0 +1,28 @@
+h3{
+    color: green;
+}
+h2 {
+    color: red;
+}
+h1 {
+    color:rgb(83, 169, 197);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+p{
+   
+    font-size: 20px;
+    font-weight: bold;
+}
+p,h3,h2,input,h4 {
+    margin-left: 20px;
+}
+#get {
+    margin-left: 20px;
+}
+
+#get,#show,#submit {
+    background-color: rgb(228, 125, 107);
+    font-weight: bold;
+    color: white;
+}
