@@ -1,0 +1,23 @@
+p {
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 40%;
+    background-color: red;
+    animation-name: ani;
+    animation-duration: 3s;
+    position: absolute;
+    animation-iteration-count: infinite;
+}   
+/* @keyframes ani{
+    from{background-color:red;}
+    to{background-color: violet;}
+} */
+
+@keyframes ani{
+    0%{background-color:red; left: 0px; top: 0px;}
+    50%{background-color: violet; left: 80px; top: 40px;}
+    100%{background-color: hotpink; left: 0px; top: 0px;}
+}
+
+
