@@ -1,0 +1,13 @@
+/* body {
+  color: yellow;
+} */
+div {
+  color: red;
+  height: 400px;
+  width: 500px;
+  border: 2px solid currentColor;
+}
+
+span {
+  border: inherit;
+}
