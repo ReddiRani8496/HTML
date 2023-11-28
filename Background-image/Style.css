@@ -1,0 +1,12 @@
+div {
+  height: 900px;
+  width: 1100px;
+  border: 2px solid transparent;
+  /* background-image: url("https://imgs.search.brave.com/F0JqxyaiMOfw_oMzuiOUuLha3oy3KUu0s9Fb72Mb4_w/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTI3/NzE1NTE1My9waG90/by9iZWF1dGlmdWwt/cGVvbmllcy1pbi1h/LXBhcGVyLWJveC1v/bi1hLXdoaXRlLWJh/Y2tncm91bmQuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPU9R/UjJjT2NGbUNnc1Jr/UXFQa1BqMUR6WTc0/T3dhQUxoVUUtY1pQ/TjBSREE9"),
+    url("paper.jpg"); */
+
+  background-image: url("flower2.jpg"), url("paper.jpg");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  background-size: 200px 900px;
+}
