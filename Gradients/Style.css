@@ -1,0 +1,63 @@
+/* div {
+  height: 500px;
+  width: 500px;
+  background-image: linear-gradient(
+    to bottom,
+    yellow,
+    red,
+    pink,
+    rgb(0, 0, 255),
+    green
+  );
+} */
+
+/* div {
+  height: 500px;
+  width: 500px;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    yellow 10%,
+    red 15%,
+    rgb(0, 0, 255) 10%,
+    green 10%
+  );
+} */
+
+/* div {
+  height: 300px;
+  width: 300px;
+  background-image: radial-gradient(yellow, red, rgb(0, 0, 255), green);
+} */
+/* div {
+  height: 400px;
+  width: 800px;
+  background-image: repeating-radial-gradient(
+    yellow 10%,
+    red 20%,
+    rgb(0, 0, 255) 40%,
+    green
+  );
+} */
+
+/* div {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-image: conic-gradient(
+    yellow 0deg,
+    yellow 90deg,
+    red 90deg,
+    red 180deg,
+    rgb(0, 0, 255) 180deg,
+    blue 270deg,
+    green 270deg
+  );
+} */
+
+div {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-image: repeating-conic-gradient(red 10%, yellow 20%);
+  border-radius: 50%;
+}
