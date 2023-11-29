@@ -1,0 +1,13 @@
+h1 {
+  width: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+
+  /* if box-sizing is border-box, the size of the element will share content,padding,border
+     if box-sizing is content-box the size of the element is width+padding+border */
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
