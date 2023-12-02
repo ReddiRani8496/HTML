@@ -5,7 +5,7 @@
 }
 
 #container {
-  height: 800px;
+  /* height: 800px; */
   width: 100%;
 }
 
@@ -40,7 +40,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  height: 20%;
+  height: 60%;
   width: 78.2%;
 }
 
