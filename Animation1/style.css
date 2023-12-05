@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #151515;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 3px solid #fe444425;
+  border-top: 3px solid red;
+  animation-name: ani;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  border: 3px solid #fee84422;
+  border-top: 3px solid #f9ce24;
+  animation-name: ani;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ani {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
