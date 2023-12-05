@@ -1,0 +1,23 @@
+div {
+  height: 200px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 50%;
+
+  border: 20px solid #fb5607;
+  border-top: 20px solid #3a86ff;
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
