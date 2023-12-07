@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  transition: 6s; /* applies both on hover and hover removal*/
+}
+
+.container:hover {
+  margin-left: 10%;
+  /* transition: 6s;  applies only on hover*/
+}
+.item {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.item1 {
+  background-color: violet;
+}
+
+.item2 {
+  background-color: indigo;
+}
+.item3 {
+  background-color: blue;
+}
+
+.item4 {
+  background-color: green;
+}
+
+.item5 {
+  background-color: orange;
+}
