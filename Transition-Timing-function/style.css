@@ -49,7 +49,22 @@
   background-color: teal;
   transition-timing-function: steps(7, start);
 }
+
 .item9 {
+  background-color: pink;
+  transition-timing-function: steps(7, jumpstart);
+}
+.item10 {
   background-color: saddlebrown;
   transition-timing-function: steps(7, end);
+}
+
+.item11 {
+  background-color: violet;
+  transition-timing-function: steps(7, jumpend);
+}
+
+.item12 {
+  background-color: indigo;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
