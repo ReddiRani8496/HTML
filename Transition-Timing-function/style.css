@@ -1,0 +1,55 @@
+.container {
+  margin: 4%;
+  width: 90%;
+}
+.container:hover .item {
+  margin-left: 500px;
+}
+
+.item {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin: 5px;
+  transition: margin-left 5s;
+}
+
+.item1 {
+  background-color: violet;
+  transition-timing-function: linear;
+}
+
+.item2 {
+  background-color: indigo;
+  transition-timing-function: ease;
+}
+.item3 {
+  background-color: blue;
+  transition-timing-function: ease-in;
+}
+.item4 {
+  background-color: green;
+  transition-timing-function: ease-out;
+}
+.item5 {
+  background-color: yellow;
+  transition-timing-function: ease-in-out;
+}
+.item6 {
+  background-color: red;
+  transition-timing-function: step-start;
+}
+
+.item7 {
+  background-color: orange;
+  transition-timing-function: step-end;
+}
+
+.item8 {
+  background-color: teal;
+  transition-timing-function: steps(7, start);
+}
+.item9 {
+  background-color: saddlebrown;
+  transition-timing-function: steps(7, end);
+}
