@@ -1,0 +1,27 @@
+/* div {
+  border-radius: 10px 50px 10px 50px;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(129, 236, 129);
+} */
+
+/* div {
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(129, 236, 129);
+} */
+
+/* div {
+  border-radius: 50px 50px;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(129, 236, 129);
+} */
+
+div {
+  border-radius: 50% 50%;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(129, 236, 129);
+}
