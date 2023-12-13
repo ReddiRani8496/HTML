@@ -1,0 +1,14 @@
+/* div {
+  border: 2px solid transparent;
+  padding: 15px;
+  border-image: url("border.jpg");
+  height: 200px;
+  width: 700px;
+} */
+
+#borderimg {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border1.jpg) 40% stretch; /*images-source slice  image-repeat*/
+  border-image-repeat: repeat;
+}
