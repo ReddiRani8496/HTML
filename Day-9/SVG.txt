@@ -1,0 +1,6 @@
+What is SVG?
+-----------
+
+SVG stands for Scalable Vector Graphics
+SVG is used to define graphics for the Web
+
