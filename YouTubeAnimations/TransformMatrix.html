@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        border: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        margin: 100px;
+        display: block;
+      }
+
+      .box {
+        height: 100px;
+        width: 100px;
+        background-color: aquamarine;
+        transition: all 2s ease-in-out;
+        position: absolute;
+      }
+
+      .box1 {
+        background-color: #fff;
+        border: 3px solid gray;
+      }
+
+      .box2 {
+        border: 3px solid green;
+        /* transform: matrix(1, 0, 0, 1, 0, 0); */ /*default values*/
+        /*scaleX() scaleY() scaleX() scaleY() translateX() translateY()*/
+
+        /* transform: matrix(1, 0, 0, 1, 50, 30); */
+        transform: matrix(1.5, 0, 0, 1.5, 0, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+    </div>
+  </body>
+</html>

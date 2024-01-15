@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 100px;
+      }
+      .wrapper {
+        display: block;
+      }
+
+      .wrapper:hover .sphere {
+        margin-left: 800px;
+      }
+
+      .sphere {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: violet;
+        margin-bottom: 30px;
+        transition: margin 3s linear;
+      }
+
+      .sphere2 {
+        transition-delay: 1s;
+        background-color: green;
+      }
+      .sphere3 {
+        transition-delay: 0.5s;
+        background-color: palevioletred;
+      }
+      .sphere4 {
+        transition-delay: -1s;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sphere sphere1"></div>
+      <div class="sphere sphere2"></div>
+      <div class="sphere sphere3"></div>
+      <div class="sphere sphere4"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        border: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        margin: 100px;
+        display: block;
+      }
+
+      .box {
+        height: 100px;
+        width: 100px;
+        background-color: aquamarine;
+        /* transition-property: all;
+        transition-duration: 3s; */
+        transition: all 2s;
+        border-radius: 5% 50% 50% 50%;
+        margin-bottom: 50px;
+      }
+
+      .box:hover {
+        transform: rotate(45deg);
+      }
+
+      .box1:hover {
+        transform: rotate(720deg);
+        background-color: palevioletred;
+      }
+      .box2:hover {
+        transform: rotate(1turn);
+        background-color: rebeccapurple;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+    </div>
+  </body>
+</html>
