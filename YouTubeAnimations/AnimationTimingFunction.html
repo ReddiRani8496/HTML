@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        margin: 100px;
+      }
+
+      .wrapper {
+        display: block;
+        margin-bottom: 50px;
+      }
+
+      .sphere {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: aqua;
+        margin: 10px;
+        transition: margin 5s;
+        position: relative;
+        animation-name: myAnimation;
+        animation-duration: 2.5s;
+        animation-timing-function: ease-in-out;
+      }
+      .sphere2 {
+        background-color: rebeccapurple;
+      }
+
+      .sphere3 {
+        background-color: orange;
+      }
+
+      .sphere4 {
+        background-color: palevioletred;
+      }
+
+      .sphere5 {
+        background-color: seagreen;
+      }
+
+      .sphere6 {
+        background-color: olive;
+      }
+
+      @keyframes myAnimation {
+        from {
+          left: 0;
+        }
+        to {
+          left: 800px;
+          transform: scale(2);
+          opacity: 0.5;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sphere sphere1"></div>
+      <div class="sphere sphere2"></div>
+      <div class="sphere sphere3"></div>
+      <div class="sphere sphere4"></div>
+      <div class="sphere sphere5"></div>
+      <div class="sphere sphere6"></div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+animation name
+animation duriation
+animation timing function 
+animation direction
+animation delay
+animation iteration count -->
