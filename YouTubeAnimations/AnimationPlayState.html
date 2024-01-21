@@ -22,6 +22,14 @@
         padding: 0.5em;
         margin-top: -1.25em;
         margin-left: -1.25em;
+        animation-name: spinner;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-play-state: paused;
+      }
+      .star:hover {
+        animation-play-state: running;
       }
       .star {
         display: flex;
@@ -42,6 +50,12 @@
       }
       .star::after {
         transform: rotate(-30deg);
+      }
+
+      @keyframes spinner {
+        to {
+          transform: rotate(1turn);
+        }
       }
     </style>
   </head>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .wrap {
+        width: 90%;
+        margin: 20px auto;
+      }
+      .ground {
+        border-bottom: solid 2px #ccc;
+        position: relative;
+        top: 300px;
+      }
+      .circ {
+        background-color: #66ccff;
+        border-radius: 50%;
+        margin: 2em 2em 0;
+        display: inline-block;
+        position: relative;
+        width: 100px;
+        height: 100px;
+      }
+      .c1 {
+        animation-name: bounce;
+        animation-duration: 3s;
+        animation-iteration-count: 10;
+        animation-timing-function: ease-out;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+        animation-delay: 1.5s;
+      }
+      .c2 {
+        animation: bounce 3s linear 0s infinite alternate-reverse forwards;
+        background-color: palevioletred;
+      }
+      .c3 {
+        animation: bounce 4s steps(5) 1.5s 20 alternate both;
+        background-color: seagreen;
+      }
+      @keyframes bounce {
+        0%,
+        100% {
+          top: 0;
+        }
+        50% {
+          top: 300px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="circ c1"></div>
+      <div class="circ c2"></div>
+      <div class="circ c3"></div>
+      <div class="ground"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .card {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 500px;
+        height: 300px;
+        margin: -150px;
+      }
+      .content {
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+        border-radius: 8px;
+        border: solid 3px #6cf;
+        transition: transform 1s;
+        transform-style: preserve-3d;
+      }
+      .card:hover .content {
+        transform: rotateY(180deg);
+        transition: transform 2s;
+      }
+
+      .front,
+      .back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        text-align: center;
+        font-size: 34px;
+        border-radius: 5px;
+        backface-visibility: hidden;
+      }
+      .front {
+        background: url(img/Fish1.jpg) no-repeat;
+        line-height: 100px;
+        height: 300px;
+        width: 500px;
+        background-size: cover;
+      }
+      .back {
+        background: url(img/Fish2.jpg) no-repeat;
+        line-height: 460px;
+        height: 300px;
+        width: 500px;
+        background-size: cover;
+        transform: rotateY(180deg);
+      }
+    </style>
+  </head>
+  <body>
+    <aside class="card">
+      <div class="content">
+        <div class="front">Discover Paradise</div>
+        <div class="back">Get out there!</div>
+      </div>
+    </aside>
+  </body>
+</html>
