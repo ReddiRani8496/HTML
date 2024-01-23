@@ -1,0 +1,87 @@
+// What is callback function in javascript?
+setTimeout(function() {
+    console.log("timer");
+},5000);
+
+function x(y) {
+    console.log("x");
+    y();
+}
+
+x(function y() {
+    console.log("y");
+});
+
+// callback function 2nd example
+document.getElementById("clickMe")
+.addEventListener("click",function xyz(){ // xyz() is callback function
+    console.log("button click");
+})
+
+// clouser and callback function
+
+function attachEventListeners() {
+    let count = 0;
+    document.getElementById("clickMe")
+    .addEventListener("click",function xyz(){ 
+    console.log("button click", ++count);
+});
+}
+attachEventListeners();
+
+
+
+// Grarbage collection and removeEventListener
+
+
+
+
+JS Engine
+
+code -> parsing -> compilation -> execution
+
+in parsing data is divided into tokens by the syntax parser caller Abstract syntax tree.
+This Abstract syntax tree is passed to the compilation.
+JIT (just in time) compilation.
+
+
+public static void countNumbers(List<List<Integer>> arr) {
+    int n = arr.size();
+    int[] price = new int[n];
+    for (int i = 0; i < n; i++) {
+        price[i] = arr.get(i).get(0);
+    }
+    int k = arr.get(0).get(1);
+    int moves = getMinimumMoves(price, k);
+    System.out.println(moves);
+}
+
+public static long getMinimumMoves(int[] price, int k) {
+    Arrays.sort(price);
+    int n = price.length;
+    int median = price[n / 2];
+    long moves = 0;
+    if (median < k) {
+        for (int i = n / 2; i < n; i++) {
+            if (price[i] < k) {
+                moves += k - price[i];
+            }
+        }
+    } else if (median > k) {
+        for (int i = 0; i <= n / 2; i++) {
+            if (price[i] > k) {
+                moves += price[i] - k;
+            }
+        }
+    }
+    return moves;
+}
+
+
+
+
+
+
+
+
+
