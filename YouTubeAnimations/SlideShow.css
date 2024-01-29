@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.slider {
+  background: #000;
+  border: 5px solid #eaeaea;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  height: 412px;
+  width: 700px;
+  margin: 40px auto 0;
+  overflow: visible;
+  position: relative;
+  background-size: contain;
+}
+
+.mask {
+  height: 412px;
+  overflow: hidden;
+}
+
+.slider li {
+  width: 700px;
+  height: 412px;
+  position: absolute;
+  list-style: none;
+}
+
+.slider li#sg01 {
+  animation: c01 25s linear infinite;
+}
+.slider li#sg02 {
+  animation: c02 25s linear infinite;
+}
+.slider li#sg03 {
+  animation: c03 25s linear infinite;
+}
+
+/* animations 4secs */
+@keyframes c01 {
+  0% {
+    top: 0px;
+  }
+  4% {
+    top: 0px;
+  }
+  16% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  20% {
+    top: 412px;
+    opacity: 0;
+    z-index: 0;
+  }
+  21% {
+    top: -412px;
+    opacity: 0;
+    z-index: -1;
+  }
+  92% {
+    top: -412px;
+    opacity: 0;
+    z-index: 0;
+  }
+  96% {
+    top: -412px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes c02 {
+  0% {
+    top: -412px;
+    opacity: 0;
+  }
+  16% {
+    top: -412px;
+    opacity: 0;
+  }
+  20% {
+    top: 0px;
+    opacity: 1;
+  }
+  24% {
+    top: 0px;
+    opacity: 1;
+  }
+  36% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  40% {
+    top: 412px;
+    opacity: 0;
+    z-index: 0;
+  }
+  41% {
+    top: -412px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -412px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes c03 {
+  0% {
+    top: -412px;
+    opacity: 0;
+  }
+  36% {
+    top: -412px;
+    opacity: 0;
+  }
+  40% {
+    top: 0px;
+    opacity: 1;
+  }
+  44% {
+    top: 0px;
+    opacity: 1;
+  }
+  56% {
+    top: 0px;
+    opacity: 1;
+  }
+  60% {
+    top: 412px;
+    opacity: 0;
+    z-index: 0;
+  }
+  61% {
+    top: -412px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -412px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+/*Progress Bar */
+
+.progressBar {
+  position: relative;
+  top: -5px;
+  width: 700px;
+  height: 5px;
+  background: #fff;
+  animation: pBar 25s ease-out infinite;
+}
+
+@keyframes pBar {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    width: 0%;
+    opacity: 0;
+  }
+  4%,
+  24%,
+  44%,
+  64%,
+  84% {
+    width: 0%;
+    opacity: 0.3;
+  }
+  16%,
+  36%,
+  56%,
+  76%,
+  96% {
+    width: 100%;
+    opacity: 0.7;
+  }
+  17%,
+  37%,
+  57%,
+  77%,
+  97% {
+    width: 100%;
+    opacity: 0.3;
+  }
+
+  18%,
+  38%,
+  58%,
+  78%,
+  98% {
+    width: 100%;
+  }
+}
