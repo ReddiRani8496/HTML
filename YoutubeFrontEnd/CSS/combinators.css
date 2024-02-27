@@ -1,0 +1,15 @@
+/* h1 span {  all span childs of h1
+  color: red;
+} */
+
+/* h1 > span {   direct span childs of h1
+  color: red;
+} */
+
+/* h1 + span {  adjacent span sibilings of h1
+  color: red;
+} */
+
+/* h1 ~ span {  all span sibilings of h1
+  color: red;
+} */

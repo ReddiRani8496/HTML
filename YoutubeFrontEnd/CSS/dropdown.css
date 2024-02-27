@@ -1,0 +1,40 @@
+.dropdownbutton {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown {
+  display: block;
+  position: relative;
+}
+
+.dropdownmenu {
+  display: none;
+  position: absolute;
+  background-color: lightblue;
+  min-width: 140px;
+}
+
+.dropdownmenu a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 10px 15px;
+}
+
+.dropdownmenu a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdownmenu {
+  display: block;
+}
+
+.dropdown:hover .dropdownbutton {
+  background-color: gray;
+}

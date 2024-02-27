@@ -1,0 +1,41 @@
+h1 {
+  color: red;
+  border: 5px solid black;
+  margin: 40px;
+  padding: 50px;
+  /* padding: 10px 20px 30px 15px; top right bottom left */
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: black;
+}
+p {
+  /* text-align: center; */
+  /* text-align: right; */
+  /* text-decoration-line: overline;
+  text-decoration-color: palevioletred;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 3px; */
+
+  text-decoration: overline red double 2px;
+  text-transform: lowercase;
+  text-indent: 20px;
+  letter-spacing: 3px;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+
+tr:hover {
+  background-color: grey;
+}

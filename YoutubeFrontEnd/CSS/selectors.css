@@ -1,0 +1,28 @@
+/*tag selector */
+/* h1 {
+  color: chocolate;
+} */
+
+/*universal selector */
+
+/* * {
+  background-color: azure;
+} */
+
+/*class selector */
+
+.para {
+  color: rebeccapurple;
+}
+
+#heading {
+  color: brown;
+}
+
+body {
+  background-image: url("https://imgs.search.brave.com/GaTfWns0L_ZzcxZyxoYv1zlN1AdHZOUn6vbdZhLaAVY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE2/MDEzNzM4Nzk4MjAt/ZTEyYzMyMDRhY2Zk/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TVRsOGZH/UnZiV1Z6ZEdsakpU/SXdZMkYwZkdWdWZE/QjhmREI4Zkh3dw.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  background-attachment: fixed;
+}
