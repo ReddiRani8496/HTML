@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#wrapper-div {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  min-height: 100px;
+  margin: auto;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+  background-color: lightgray;
+  width: 100%;
+  align-items: center;
+  padding: 2%;
+  margin-bottom: 10px;
+}
+
+#main-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 400px;
+  margin-bottom: 10px;
+}
+
+#left-div {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
+  min-height: 400px;
+}
+
+#right-div {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 75%;
+  min-height: 400px;
+  justify-content: space-between;
+}
+
+#ban {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 150px;
+  background-color: lightgray;
+  align-items: center;
+  padding: 2%;
+
+  justify-content: center;
+}
+
+#body {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 240px;
+  background-color: lightgray;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 80px;
+}
