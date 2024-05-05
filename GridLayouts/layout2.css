@@ -1,0 +1,35 @@
+.header {
+  grid-area: header;
+}
+.menu {
+  grid-area: menu;
+}
+
+.main {
+  grid-area: main;
+}
+
+.right {
+  grid-area: right;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "menu main main main right right"
+    "menu footer footer footer footer footer";
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.container > div {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: rgb(191, 240, 223);
+}
