@@ -7,6 +7,9 @@ window.addEventListener("mousemove", (e) => {
   para1.innerHTML = "Y: " + e.pageY;
 });
 
+let isBlue = false;
 btn.addEventListener("click", (e) => {
-  div.style.backgroundColor = "lightblue";
+  if (!isBlue) div.style.backgroundColor = "lightblue";
+  else div.style.backgroundColor = "lightgray";
+  isBlue = !isBlue;
 });

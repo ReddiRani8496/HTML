@@ -5,7 +5,8 @@ div {
   background-color: lightgray;
   border-radius: 5%;
   padding: 50px;
-  padding-left: 90px;
+  padding-left: 150px;
+  margin: auto;
 }
 
 div p {
