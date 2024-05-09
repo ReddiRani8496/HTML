@@ -1,0 +1,27 @@
+#g {
+    color: blue;
+}
+
+#o {
+    color: red;
+}
+
+#oo{
+    color: goldenrod;
+}
+
+#l {
+    color: rgb(56, 213, 56);
+}
+
+#e {
+    color: red;
+}
+
+div {
+    display: block;
+    text-align: center;
+}
+span {
+    font-size: 60px;
+}

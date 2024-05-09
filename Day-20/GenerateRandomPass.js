@@ -22,7 +22,7 @@ function generatePassword(){
 
     let password="";
     for(let i = 0; i<length;i++) {
-        let index = Math.floor(Math.random() * characters.length)
+        let index = Math.floor(Math.random() * characters.length) 
             password += characters.charAt(index);
     }
     document.getElementById("Password").innerText = 'Password: '+password;
