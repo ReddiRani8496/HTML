@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>The oncut Event</h2>
+
+    <input type="text" oncut="myFunction()" value="Try to cut this text" />
+
+    <p id="demo"></p>
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "You cutted text!";
+      }
+    </script>
+  </body>
+</html>
