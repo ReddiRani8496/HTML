@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:h="http://java.sun.com/jsf/html"
+  xmlns:f="http://java.sun.com/jsf/core"
+>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Traffic Management System Login</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <h1 class="main-heading">Traffic Management System</h1>
+
+    <div class="login-container">
+      <h2>Login</h2>
+      <h:form>
+        <div class="input-group">
+          <i class="fas fa-user"></i>
+          <h:inputText
+            id="username"
+            value="#{loginBean.username}"
+            required="true"
+            requiredMessage="Username is required"
+            placeholder="Username"
+            styleClass="input"
+          />
+        </div>
+        <div class="input-group">
+          <i class="fas fa-lock"></i>
+          <h:inputSecret
+            id="password"
+            value="#{loginBean.password}"
+            required="true"
+            requiredMessage="Password is required"
+            placeholder="Password"
+            styleClass="input"
+          />
+        </div>
+        <div class="input-group">
+          <i class="fas fa-users"></i>
+          <h:inputText
+            id="roleName"
+            value="#{loginBean.roleName}"
+            required="true"
+            requiredMessage="Role Name is required"
+            placeholder="Role Name"
+            styleClass="input"
+          />
+        </div>
+        <h:commandButton
+          value="Login"
+          action="#{loginBean.login}"
+          styleClass="button"
+        />
+      </h:form>
+    </div>
+  </body>
+</html>
